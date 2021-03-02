@@ -1,0 +1,22 @@
+{
+  "companyInfo": {
+    "appInfo": {
+      "name": "Fake TSP connector",
+      "appURLiOS": "https://apps.apple.com/app/id",
+      "appURLAndroid": "https://play.google.com/store/apps/details?id=com.skedgo.fake",
+      "deepLinkPattern": "fake://home"
+    },
+    "name": "Fake",
+    "address": "Darwin",
+    "website": "https://www.skedgo.com/",
+    "logos": null,
+    "color": {
+      "red": 0,
+      "blue": 255,
+      "green": 0
+    }
+  },
+  "modesEnabled": [
+    "cy_bic-s"
+  ]
+}

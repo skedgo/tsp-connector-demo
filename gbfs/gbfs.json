@@ -1,0 +1,23 @@
+{
+  "last_updated": 1613479279787,
+  "ttl": 86400,
+  "version": "3.0",
+  "data": {
+    "en": {
+      "feeds": [
+        {
+          "name": "coverage",
+          "url": "http://127.0.0.1:8000/coverage.json"
+        },
+        {
+          "name": "free_bike_status",
+          "url": "http://127.0.0.1:8000/free_bike_status.json"
+        },
+        {
+          "name": "provider",
+          "url": "http://127.0.0.1:8000/provider.json"
+        }
+      ]
+    }
+  }
+}

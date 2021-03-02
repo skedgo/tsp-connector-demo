@@ -1,0 +1,42 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                130.5,
+                -12.9
+              ],
+              [
+                131.4,
+                -12.9
+              ],
+              [
+                131.4,
+                -12.1
+              ],
+              [
+                130.5,
+                -12.1
+              ],
+              [
+                130.5,
+                -12.9
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": "darwin",
+      "properties": {
+        "products": null,
+        "pricingRules": null
+      },
+      "type": "Feature"
+   }
+  ],
+  "type": "FeatureCollection"
+}
