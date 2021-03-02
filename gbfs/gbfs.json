@@ -7,15 +7,15 @@
       "feeds": [
         {
           "name": "coverage",
-          "url": "http://127.0.0.1:8000/coverage.json"
+          "url": "https://skedgo.github.io/tsp-connector-demo/gbfs/coverage.json"
         },
         {
           "name": "free_bike_status",
-          "url": "http://127.0.0.1:8000/free_bike_status.json"
+          "url": "https://skedgo.github.io/tsp-connector-demo/gbfs/free_bike_status.json"
         },
         {
           "name": "provider",
-          "url": "http://127.0.0.1:8000/provider.json"
+          "url": "https://skedgo.github.io/tsp-connector-demo/gbfs/provider.json"
         }
       ]
     }
