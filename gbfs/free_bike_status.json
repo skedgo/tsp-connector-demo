@@ -5,15 +5,6 @@
   "data": {
     "bikes": [
       {
-        "bike_id": "fake_scooter_1",
-        "lat": -12.366974320467435,
-        "lon": 130.87956556817045,
-        "is_reserved": 0,
-        "is_disabled": 0,
-        "current_range_percent": 0.6,
-        "vehicle_type_id": "SCOOTER"
-      },
-      {
         "bike_id": "fake_scooter_2",
         "lat": -12.365679, 
         "lon": 130.874270,
