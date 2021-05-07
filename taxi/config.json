@@ -1,0 +1,12 @@
+{
+  "endpoints": [
+    {
+      "name": "coverage",
+      "url": "coverage.json"
+    },
+    {
+      "name": "provider",
+      "url": "provider.json"
+    }
+  ]
+}

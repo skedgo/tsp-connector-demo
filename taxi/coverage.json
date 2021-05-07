@@ -1,0 +1,147 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                130.5,
+                -12.9
+              ],
+              [
+                131.4,
+                -12.9
+              ],
+              [
+                131.4,
+                -12.1
+              ],
+              [
+                130.5,
+                -12.1
+              ],
+              [
+                130.5,
+                -12.9
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": "darwin",
+      "properties": {
+        "products": [
+          {
+            "title": "Regular",
+            "id": "regular",
+            "bookingOption": null,
+            "planId": "regular"
+          }
+        ],
+        "pricingRules": [
+          {
+            "planId": "regular",
+            "url": null,
+            "name": null,
+            "fare": {
+              "estimated": null,
+              "description": null,
+              "bookingFee": 2.5,
+              "waitingMaxSpeed": 26,
+              "parts": [
+                {
+                  "name": "Flag Fall",
+                  "amount": 3.6,
+                  "currencyCode": "AUD",
+                  "taxRate": null,
+                  "type": "FIXED",
+                  "unitType": null,
+                  "units": null,
+                  "scales": null
+                },
+                {
+                  "name": "Distance based",
+                  "amount": null,
+                  "currencyCode": "AUD",
+                  "taxRate": null,
+                  "type": "FLEX",
+                  "unitType": "KM",
+                  "units": 2.19,
+                  "scales": null
+                },
+                {
+                  "name": "Duration based",
+                  "amount": null,
+                  "currencyCode": "AUD",
+                  "taxRate": null,
+                  "type": "FLEX",
+                  "unitType": "MINUTE",
+                  "units": 94.4,
+                  "scales": null
+                },
+                {
+                  "name": "Nighttime FlagFall Surcharge",
+                  "amount": 2.5,
+                  "currencyCode": "AUD",
+                  "taxRate": null,
+                  "type": "FIXED",
+                  "unitType": null,
+                  "units": null,
+                  "scales": [
+                    {
+                      "from": 0,
+                      "to": 6,
+                      "type": "HOUR",
+                      "proportional": true
+                    },
+                    {
+                      "from": 22,
+                      "to": 24,
+                      "type": "HOUR",
+                      "proportional": true
+                    }
+                  ]
+                },
+                {
+                  "name": "Nighttime Surcharge",
+                  "amount": null,
+                  "currencyCode": "AUD",
+                  "taxRate": null,
+                  "type": "FLEX",
+                  "unitType": "KM",
+                  "units": 0.44,
+                  "scales": [
+                    {
+                      "from": 0,
+                      "to": 6,
+                      "type": "HOUR",
+                      "proportional": true
+                    },
+                    {
+                      "from": 22,
+                      "to": 24,
+                      "type": "HOUR",
+                      "proportional": true
+                    },
+                    {
+                      "from": 0,
+                      "to": 4,
+                      "type": "WEEKDAY",
+                      "proportional": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "isTaxable": null,
+            "description": null
+          }
+        ]
+      },
+      "type": "Feature"
+   }
+  ],
+  "type": "FeatureCollection"
+}
